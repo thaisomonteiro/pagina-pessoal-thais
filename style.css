@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.navegacao ul {
+    list-style: none;
+    display: flex;
+}
+
+.navegacao ul li {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navegacao ul li a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+#sobre {
+    text-align: center;
+    background-color: #fafafa;
+    padding: 60px 20px;
+}
+
+.sobre-imagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sobre-nome {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.sobre-titulo {
+    font-size: 22px;
+    color: #4a4a4a;
+    margin-top: 10px;
+}
+
+.sobre-descricao {
+    font-size: 17px;
+    color: #4a4a4a;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+#formacao, #experiencias, #contato {
+    padding: 50px 150px;
+}
+
+.formacao-titulo, .experiencia-titulo, .contato-titulo {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.formacao-lista, .experiencia-lista {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.formacao-lista h3, .experiencia-lista h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.formacao-lista a, .experiencia-lista a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.formacao-lista p, .experiencia-lista p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.contato-formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contato-grupoinput {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.contato-input {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contato-input input, .contato-input textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contato-input label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.btn-enviar {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.rodape {
+    background-color: #fafafa
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    flex-wrap: wrap;
+}
+
+.rodape-contatos a {
+    color: #1a1a1a;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.logo-minas {
+    height: 60px;
+    margin-top: 10 px;
+}
+
+.rodape-info {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.rodape-contatos p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
