@@ -149,7 +149,7 @@ body {
     background-color: #fafafa
     padding: 30px 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     border-top: 1px solid #ddd;
     flex-wrap: wrap;
@@ -178,4 +178,38 @@ body {
     align-items: center;
     gap: 8px;
     margin-bottom: 8px;
+}
+
+#projetos {
+    background-color: #ffffff;
+    padding: 50px 150px;
+}
+
+.projetos-titulo {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.projetos-lista {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.projetos-lista h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.projetos-lista a {
+    color: #000;
+    text-decoration: underline;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.projetos-lista p {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 20px;
 }
